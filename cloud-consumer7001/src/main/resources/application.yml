@@ -1,2 +1,13 @@
 server:
   port: 7001
+
+spring:
+  application:
+    name: ltx-cloud
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:7001/eureka/
+  instance:
+    instance-id: consumer1
