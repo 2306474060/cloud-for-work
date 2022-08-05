@@ -1,8 +1,8 @@
 package com.lintx.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.lintx.entity.UserInfo;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lin.tx.common.entity.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

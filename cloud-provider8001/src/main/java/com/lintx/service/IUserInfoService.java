@@ -1,7 +1,7 @@
 package com.lintx.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.lintx.entity.UserInfo;
+import com.lin.tx.common.entity.UserInfo;
 
 import java.util.List;
 
@@ -16,5 +16,7 @@ import java.util.List;
 public interface IUserInfoService extends IService<UserInfo> {
 
     List<UserInfo> getUserList();
+
+    int create(UserInfo userInfo);
 
 }

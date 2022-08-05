@@ -1,4 +1,4 @@
-package com.lintx.entity;
+package com.lin.tx.common.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
