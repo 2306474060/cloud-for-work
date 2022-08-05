@@ -59,5 +59,6 @@ eureka:
     service-url:
       defaultZone: http://eureka2.com:7002/eureka/,http://eureka1.com:7001/eureka/
     fetch-registry: true
+    register-with-eureka: true
   instance:
     instance-id: provider1
