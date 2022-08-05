@@ -1,6 +1,6 @@
 
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -60,4 +60,4 @@ eureka:
       defaultZone: http://eureka2.com:7002/eureka/,http://eureka1.com:7001/eureka/
     fetch-registry: true
   instance:
-    instance-id: provider1
+    instance-id: provider2
