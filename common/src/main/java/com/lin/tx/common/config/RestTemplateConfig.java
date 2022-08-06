@@ -1,7 +1,7 @@
-package com.lin.tx.config;
+package com.lin.tx.common.config;
 
+import com.lin.tx.common.config.LtxRuler;
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +18,6 @@ public class RestTemplateConfig {
 
     @Bean
     public IRule MyRuler() {
-        return new RandomRule();
+        return new LtxRuler();
     }
 }
