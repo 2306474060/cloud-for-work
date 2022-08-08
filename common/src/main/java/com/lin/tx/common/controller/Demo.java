@@ -24,4 +24,6 @@ public class Demo {
     public CommonResult<UserInfo> getUserList() {
         return restTemplate.getForObject(LocalURI+"/provider/system/userInfo/getAll", CommonResult.class);
     }
+
+
 }
