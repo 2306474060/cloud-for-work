@@ -61,3 +61,4 @@ eureka:
     register-with-eureka: true
   instance:
     instance-id: Hystrix
+    prefer-ip-address: true    #查看ip地址
