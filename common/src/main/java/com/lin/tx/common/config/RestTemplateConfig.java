@@ -11,13 +11,13 @@ import org.springframework.web.client.RestTemplate;
 public class RestTemplateConfig {
 
     @Bean
-    @LoadBalanced
+    //@LoadBalanced
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
 
-    @Bean
-    public IRule MyRuler() {
-        return new LtxRuler();
-    }
+    //@Bean
+    //public IRule MyRuler() {
+        //return new LtxRuler();
+    //}
 }

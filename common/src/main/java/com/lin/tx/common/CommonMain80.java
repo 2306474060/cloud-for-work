@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@RibbonClient(name=  "lintxProder8001", configuration = LtxRuler.class)
+//@RibbonClient(name=  "lintxProder8001", configuration = LtxRuler.class)
 public class CommonMain80 {
 
     public static void main(String[] args) {
